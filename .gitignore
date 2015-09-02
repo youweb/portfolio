@@ -14,3 +14,5 @@ application/logs/
 application/config/database.php
 public_html/ci_sessions/
 simpler
+node_modules
+/bower_components/
