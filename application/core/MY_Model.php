@@ -10,7 +10,7 @@ class MY_Model extends CI_Model
     protected $_rules = array();
     protected $_timestamps = FALSE;
 
-    function __construct()
+    public function __construct()
     {
         parent::__construct();
     }
