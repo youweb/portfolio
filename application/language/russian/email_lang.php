@@ -1,5 +1,6 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+
+defined('BASEPATH') or exit('No direct script access allowed');
 
 $lang['email_must_be_array'] = 'Метод проверки электронной почты должен быть передан массив.';
 $lang['email_invalid_address'] = 'Неправильный email адрес: %s';

@@ -1,5 +1,6 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+
+defined('BASEPATH') or exit('No direct script access allowed');
 
 $lang['migration_none_found'] = 'Миграции не были найдены.';
 $lang['migration_not_found'] = 'Миграция не может быть найдена с номером версии: %s.';

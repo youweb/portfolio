@@ -1,5 +1,6 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+
+defined('BASEPATH') or exit('No direct script access allowed');
 
 $lang['ut_test_name'] = 'Имя теста';
 $lang['ut_test_datatype'] = 'Тест Тип данных';

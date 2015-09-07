@@ -1,5 +1,6 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+
+defined('BASEPATH') or exit('No direct script access allowed');
 
 $lang['upload_userfile_not_set'] = 'Не удается найти POST переменную UserFile.';
 $lang['upload_file_exceeds_limit'] = 'Загруженный файл превышает максимально допустимый размер в файле конфигурации PHP.';
