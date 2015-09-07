@@ -6,7 +6,7 @@ class Main extends CI_Controller {
 	public function index()
 	{
 		$data = [];
-		$data['title'] = 'Index page';
+		$data['title'] = 'Index page title';
 		$this->load->view('main', $data);
 	}
 }
