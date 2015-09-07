@@ -46,7 +46,7 @@ $config['index_page'] = 'index.php';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= 'REQUEST_URI';
+$config['uri_protocol'] = 'REQUEST_URI';
 
 /*
 |--------------------------------------------------------------------------
@@ -70,7 +70,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'russian';
+$config['language'] = 'russian';
 
 /*
 |--------------------------------------------------------------------------
@@ -363,7 +363,7 @@ $config['sess_cookie_name'] = 'ci_session';
 $config['sess_save_path'] = 'ci_sessions';
 $config['sess_expiration'] = 172800;
 $config['sess_match_ip'] = TRUE;
-$config['sess_time_to_update'] = 300;// $config['sess_expiration'];
+$config['sess_time_to_update'] = 300; // $config['sess_expiration'];
 $config['sess_regenerate_destroy'] = FALSE;
 
 /*
@@ -383,9 +383,9 @@ $config['sess_regenerate_destroy'] = FALSE;
 */
 $config['cookie_prefix']	= '';
 $config['cookie_domain']	= '';
-$config['cookie_path']		= '/';
+$config['cookie_path'] = '/';
 $config['cookie_secure']	= FALSE;
-$config['cookie_httponly'] 	= FALSE;
+$config['cookie_httponly'] = FALSE;
 
 /*
 |--------------------------------------------------------------------------
