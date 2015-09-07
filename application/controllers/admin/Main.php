@@ -5,6 +5,7 @@ class Main extends CI_Controller {
 
 	public function index()
 	{
+		$data = [];
 		$data['title'] = 'Admin page';
 		$this->load->view('main', $data, 'admin');
 	}
