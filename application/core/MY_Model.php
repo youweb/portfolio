@@ -1,5 +1,14 @@
 <?php
 
+if (!defined('BASEPATH')) {
+    exit('No direct script access allowed');
+}
+
+
+/**
+ * Class MY_Model
+ * @property MY_Model $my_model
+ */
 class MY_Model extends CI_Model
 {
     protected $_table_name = '';

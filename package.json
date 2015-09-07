@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "devDependencies": {
+    "autoprefixer": "^6.0.2",
+    "css-mqpacker": "^4.0.0",
+    "csswring": "^4.0.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.0",
+    "gulp-util": "^3.0.6"
+  },
+  "description": "portfolio.youweb.su",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youweb/portfolio.git"
+  },
+  "author": "Ilya Zhidkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youweb/portfolio/issues"
+  },
+  "homepage": "https://github.com/youweb/portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.5"
+  }
+}
