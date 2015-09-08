@@ -4,8 +4,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <!DOCTYPE html>
 <html class="error-page" lang="ru">
 <head>
-    <meta charset="utf-8">
-    <title>Ошибка Базы данных</title>
+    <title>РћС€РёР±РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap -->
@@ -32,18 +32,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="centering text-center error-container">
                 <div class="text-center">
                     <h2 class="without-margin"><span class="text-danger"><?php echo $heading; ?></h2>
-                    <h4 class="text-danger">Страница не найдена</h4>
+                    <h4 class="text-danger">РћС€РёР±РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…</h4>
                 </div>
                 <div class="text-center">
                     <blockquote>
                         <p><?php echo $message; ?></p>
                     </blockquote>
-                    <h3><small>Выберите опцию ниже</small></h3>
+                    <h3><small>Р’С‹Р±РµСЂРёС‚Рµ РѕРїС†РёСЋ РЅРёР¶Рµ</small></h3>
                 </div>
                 <hr>
                 <ul class="pager">
-                    <li><a href="javascript:history.back()">Назад</a></li>
-                    <li><a href="/">На главную</a></li>
+                    <li><a href="javascript:history.back()">РќР°Р·Р°Рґ</a></li>
+                    <li><a href="/">РќР° РіР»Р°РІРЅСѓСЋ</a></li>
                     <!-- <li><a href="error-pages.html">Other error pages &rarr;</a></li> -->
                 </ul>
             </div>

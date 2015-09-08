@@ -15,25 +15,15 @@ var opacity = function (css, opts) {
     });
 };
 
-gulp.task('css', function () {
-    var processors = [
-        autoprefixer({browsers: ['last 1 version']}),
-        csswring
-    ];
-    return gulp.src('src/*.css')
-          .pipe(postcss(processors))
-          .pipe(gulp.dest('dest'));
-});
-
 gulp.task('admin', function () {
     var processors = [
         autoprefixer({browsers: ['> 1%']}),
         opacity,
         csswring
     ];
-    return gulp.src('./src/admin/*.css')
+    return gulp.src('src/admin/**/*.css')
           .pipe(postcss(processors))
-          .pipe(gulp.dest('./public_html/admin/css/'));
+          .pipe(gulp.dest('public_html/admin_theme/'));
 });
 
 gulp.task('site', function () {
@@ -42,7 +32,7 @@ gulp.task('site', function () {
         opacity,
         csswring
     ];
-    return gulp.src('/src/site/*.css')
+    return gulp.src('src/site/**/*.css')
           .pipe(postcss(processors))
-          .pipe(gulp.dest('/public_html/css/'));
+          .pipe(gulp.dest('public_html/'));
 });

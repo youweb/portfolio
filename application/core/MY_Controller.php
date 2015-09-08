@@ -11,7 +11,7 @@ if ( !defined('BASEPATH') ) {
 class MY_Controller extends CI_Controller
 {
     /**
-     * @var null
+     * @var int|null
      */
     protected $_id = null;
 

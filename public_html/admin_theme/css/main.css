@@ -1,2 +1,1 @@
-body {
-}
+body{background:lightblue}button{border:1px solid black;background:#FAF;color:#000;-webkit-transition:background .5s linear;transition:background .5s linear;opacity:.5;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"}button:hover{background:#AFA}

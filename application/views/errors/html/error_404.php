@@ -4,8 +4,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <!DOCTYPE html>
 <html class="error-page" lang="ru">
     <head>
-        <meta charset="utf-8">
-        <title>Ошибка 404</title>
+        <title>РћС€РёР±РєР° 404</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Bootstrap -->
@@ -31,19 +31,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-lg-12">
                     <div class="centering text-center error-container">
                         <div class="text-center">
-                            <h2 class="without-margin">Не волнуйтесь. Это только <span class="text-success"><big>404</big></span> ошибка.</h2>
-                            <h4 class="text-success">Страница не найдена</h4>
+                            <h2 class="without-margin">РќРµ РІРѕР»РЅСѓР№С‚РµСЃСЊ. Р­С‚Рѕ С‚РѕР»СЊРєРѕ <span class="text-success"><big>404</big></span> РѕС€РёР±РєР°.</h2>
+                            <h4 class="text-success">РЎС‚СЂР°РЅРёС†Р° РЅРµ РЅР°Р№РґРµРЅР°</h4>
                         </div>
                         <div class="text-center">
                         	<blockquote>
                         		<p><?php echo $message; ?></p>
                         	</blockquote>
-                            <h3><small>Выберите опцию ниже</small></h3>
+                            <h3><small>Р’С‹Р±РµСЂРёС‚Рµ РѕРїС†РёСЋ РЅРёР¶Рµ</small></h3>
                         </div>
                         <hr>
                         <ul class="pager">
-                            <li><a href="javascript:history.back()">Назад</a></li>
-                            <li><a href="/">На главную</a></li>
+                            <li><a href="javascript:history.back()">РќР°Р·Р°Рґ</a></li>
+                            <li><a href="/">РќР° РіР»Р°РІРЅСѓСЋ</a></li>
                             <!-- <li><a href="error-pages.html">Other error pages &rarr;</a></li> -->
                         </ul>
                     </div>
